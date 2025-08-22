@@ -122,4 +122,4 @@ If you wish to reuse any part of the code, please contact me to request permissi
 [![pages-build-deployment](https://github.com/tezamo/shared-apartment-market-study/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/tezamo/shared-apartment-market-study/actions/workflows/pages/pages-build-deployment)
 [![contributors](https://img.shields.io/github/contributors/tezamo/shared-apartment-market-study.svg)](https://github.com/tezamo/shared-apartment-market-study/graphs/contributors)
 [![GitHub release](https://img.shields.io/github/v/release/tezamo/shared-apartment-market-study.svg)](https://GitHub.com/tezamo/shared-apartment-market-study/releases/)
-[![GitHub license](https://img.shields.io/github/license/tezamo/shared-apartment-market-study.svg)](https://github.com/tezamo/shared-apartment-market-study/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/tezamo/shared-apartment-market-study.svg)](https://github.com/tezamo/shared-apartment-market-study/blob/main/LICENSE)]
