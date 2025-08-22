@@ -52,34 +52,35 @@ $$
 
 ---
 
-## **📂 Repository Structure**  
+## **📂 Repository Structure**
+  
 ```markdown
-apartment_analysis/
-├── literature_review/                 # Academic papers and references
-├── notebooks/
-│   ├── data_analysis.ipynb            # Regression analysis
-│   ├── map.ipynb                      # Geospatial visualization notebook
-│   └── map.html                       # Exported interactive map
-├── data/
-│   ├── wg_listings_berlin.xlsx        # Raw dataset
-│   └── wg_listings_berlin_modified.xlsx  # Cleaned/processed dataset
-├── results/
-│   ├── regression_results_airport_proximation_analysis.csv
-│   ├── ols_online_depth_coefficients_pvalues.csv
-│   ├── ols_online_depth_summary.csv
-│   ├── ols_Online Duration_coefficients_pvalues.csv
-│   ├── ols_Online Duration_summary.csv
-│   ├── ols_Price_coefficients_pvalues.csv
-│   ├── ols_price_depth_coefficients_pvalues.csv
-│   ├── ols_price_depth_summary.csv
-│   ├── ols_Price_summary.csv
-│   └── figures/                       # Graphs and charts
-│       ├── output_5_0.png
-│       └── output_12_0.png
-├── LICENSE                            # License file
-└── README.md                          # Project overview
+shared-apartment-market-study/
+├── apartment_analysis/
+│   ├── literature_review/                       # Academic papers and references
+│   ├── notebooks/
+│   │   ├── data_analysis.ipynb                  # Regression analysis
+│   │   ├── map.ipynb                            # Geospatial visualization notebook
+│   │   └── map.html                             # Exported interactive map
+│   ├── data/
+│   │   ├── wg_listings_berlin.xlsx              # Raw dataset
+│   │   └── wg_listings_berlin_modified.xlsx     # Cleaned/processed dataset
+│   └── results/
+│       ├── regression_results_airport_proximation_analysis.csv
+│       ├── ols_online_depth_coefficients_pvalues.csv
+│       ├── ols_online_depth_summary.csv
+│       ├── ols_Online Duration_coefficients_pvalues.csv
+│       ├── ols_Online Duration_summary.csv
+│       ├── ols_Price_coefficients_pvalues.csv
+│       ├── ols_price_depth_coefficients_pvalues.csv
+│       ├── ols_price_depth_summary.csv
+│       └── ols_Price_summary.csv
+├── figures/                                     # Graphs and charts
+│   ├── output_5_0.png
+│   └── output_12_0.png
+├── LICENSE                                      # License file
+└── README.md                                    # Project overview
 ```
-
 ---
 
 ## **📊 Results**  
