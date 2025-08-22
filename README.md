@@ -1,5 +1,5 @@
 ![head.gif](figures/head.gif)
-<img src="figures/head.gif" alt="head" width="800" height="200">
+<img src="figures/head.gif" alt="head" width="800" height="400">
 # Urban Rental Price Analysis:  
 ***Berlin’s WG-Gesucht Market***  
 
