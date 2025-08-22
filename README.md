@@ -41,7 +41,7 @@ $$
 Price = \alpha_0 + \sum_{i=1}^8 \alpha_i X_i + U  
 $$  
 
-*(See full equation in [Results](/workspaces/shared-apartment-market-study/apartment_analysis/result/README.md))*  
+*** See full equation in [Results](https://github.com/tezamo/shared-apartment-market-study/blob/main/README.md)  
 
 #### **Listing Duration**  
 **Simple**:  
