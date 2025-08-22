@@ -19,7 +19,7 @@ Prior research highlights location, amenities, and neighborhood characteristics 
 
 ## **⚙️ Methodology**  
 ### **1. Data Collection**  
-- **Scraping Tool**: Python script (`scraper.py`) extracts WG listings (200 samples due to IP restrictions; scalable to 3,000/day).  
+- **Scraping Tool**: Python script (`data_analysis.ipynb`) extracts WG listings (200 samples due to IP restrictions; scalable to 3,000/day).  
 - **Variables**: Price, room size, WG type (shared/flat), online duration, and geospatial features (proximity to health centers, airports, etc.).  
 
 ### **2. Analysis**  
@@ -41,7 +41,7 @@ $$
 Price = \alpha_0 + \sum_{i=1}^8 \alpha_i X_i + U  
 $$  
 
-*(See full equation in [Results](#-results))*  
+*(See full equation in [Results](/workspaces/shared-apartment-market-study/apartment_analysis/result/README.md))*  
 
 #### **Listing Duration**  
 **Simple**:  
@@ -55,16 +55,29 @@ $$
 ## **📂 Repository Structure**  
 ```markdown
 apartment_analysis/
-├── data/                    # Raw and processed datasets
-├── literature_review/       # Academic papers and references
+├── literature_review/                 # Academic papers and references
 ├── notebooks/
-│   ├── data_analysis.ipynb  # Core regression analysis
-│   └── in_depth_analysis.ipynb  # Geospatial modeling
-├── scraper.py               # Web scraping script
+│   ├── data_analysis.ipynb            # Regression analysis
+│   ├── map.ipynb                      # Geospatial visualization notebook
+│   └── map.html                       # Exported interactive map
+├── data/
+│   ├── wg_listings_berlin.xlsx        # Raw dataset
+│   └── wg_listings_berlin_modified.xlsx  # Cleaned/processed dataset
 ├── results/
-│   ├── regression_results.csv  # Regression outputs
-│   └── visualizations/      # Graphs and charts
-└── README.md                # Project overview
+│   ├── regression_results_airport_proximation_analysis.csv
+│   ├── ols_online_depth_coefficients_pvalues.csv
+│   ├── ols_online_depth_summary.csv
+│   ├── ols_Online Duration_coefficients_pvalues.csv
+│   ├── ols_Online Duration_summary.csv
+│   ├── ols_Price_coefficients_pvalues.csv
+│   ├── ols_price_depth_coefficients_pvalues.csv
+│   ├── ols_price_depth_summary.csv
+│   ├── ols_Price_summary.csv
+│   └── figures/                       # Graphs and charts
+│       ├── output_5_0.png
+│       └── output_12_0.png
+├── LICENSE                            # License file
+└── README.md                          # Project overview
 ```
 
 ---
