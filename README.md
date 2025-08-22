@@ -1,3 +1,5 @@
+![head.gif](figures/head.gif)
+
 # Urban Rental Price Analysis:  
 ***Berlin’s WG-Gesucht Market***  
 
