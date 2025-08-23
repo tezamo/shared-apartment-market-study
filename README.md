@@ -41,7 +41,7 @@ $$
 Price = \alpha_0 + \sum_{i=1}^8 \alpha_i X_i + U  
 $$  
 
-*** See full equation in [Results](https://github.com/tezamo/shared-apartment-market-study/blob/main/README.md)  
+*** See full equation in [result/Readme](https://github.com/tezamo/shared-apartment-market-study/blob/main/apartment_analysis/result/README.md)  
 
 #### **Listing Duration**  
 **Simple**:  
@@ -98,20 +98,20 @@ shared-apartment-market-study/
 - Sample size constraints due to scraping limits.  
 - Geospatial proxies (e.g., "low-crime") may not capture granularity.  
 
-Full results in [`results/README.md`](./results/README.md) and Jupyter notebooks.  
+Full results in [`results/README.md`](./result/README.md) and Jupyter notebooks.  
 
 ### Map
 - You can see the map here:  
-[Open Map](https://tezamo.github.io/shared-apartment-market-study/apartment_analysis/map.html)
+[Open Map](https://tezamo.github.io/shared-apartment-market-study/apartment_analysis/notebooks/map.html)
 ---
 
 ## **🚀 How to Reproduce**  
-1. **Scrape Data**: Run `scraper.py` (adjust `max_ads` in code).  
+1. **Scrape Data**: Run `scraper.py` (adjust `max_ads` in code). (removed for privacy) 
 2. **Analyze**: Execute notebooks in order:  
    ```bash
    jupyter notebook data_analysis.ipynb
    ```  
-3. **Dependencies**: See `requirements.txt` for Python libraries.  
+ 
 
 ---
 
@@ -126,7 +126,7 @@ Full results in [`results/README.md`](./results/README.md) and Jupyter notebooks
 --- 
 **📌 Copyright & Code Usage:**
 
-© 2025 Tezamo . All rights reserved.
+© 2025 tezamo . All rights reserved.
 
 The source code in this repository is provided for educational purposes as part of my coursework.
 You may view and reference the code, but copying, modifying, or redistributing it in any form without explicit permission is prohibited.
