@@ -98,7 +98,7 @@ shared-apartment-market-study/
 - Sample size constraints due to scraping limits.  
 - Geospatial proxies (e.g., "low-crime") may not capture granularity.  
 
-Full results in [`results/README.md`](./result/README.md) and Jupyter notebooks.  
+Full results in [`results`](./apartment_analysis/result) and Jupyter notebooks in [`notebooks`](./apartment_analysis/notebooks) and [`extendedvars`](./apartment_analysis/extendedvars).
 
 ### Map
 - You can see the map here:  
